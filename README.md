@@ -19,54 +19,23 @@ Node.js (v16 or higher)
 npm (v7 or higher)
 Getting Started
 1. Clone the Repository
-bash
-
-Collapse
-
-Wrap
-
-Copy
 git clone <repository-url>
 cd ecommerce-redux
 2. Install Dependencies
-bash
-
-Collapse
-
-Wrap
-
-Copy
 npm install
 3. Run the Application
 bash
 
-Collapse
-
-Wrap
-
-Copy
 npm run dev
 Open your browser and navigate to http://localhost:5173.
 
 4. Build for Production (Optional)
-bash
-
-Collapse
-
-Wrap
-
-Copy
 npm run build
 The production-ready files will be in the dist folder.
 
 Project Structure
 text
 
-Collapse
-
-Wrap
-
-Copy
 ecommerce-redux/
 ├── public/                # Static assets
 ├── src/                   # Source code
@@ -110,12 +79,6 @@ id, title, price, image, etc.
 Example product:
 
 json
-
-Collapse
-
-Wrap
-
-Copy
 {
   "id": 1,
   "title": "Majestic Mountain Graphic T-Shirt",
