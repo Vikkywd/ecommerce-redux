@@ -37,8 +37,11 @@ Project Structure
 text
 
 ecommerce-redux/
+
 ├── public/                # Static assets
+
 ├── src/                   # Source code
+
 │   ├── components/        # Reusable components
 │   │   ├── CartItem.jsx   # Cart item row component
 │   │   ├── Navbar.jsx     # Navigation bar with cart count
@@ -56,6 +59,8 @@ ecommerce-redux/
 │   └── styles.css         # Custom styles
 ├── package.json           # Dependencies and scripts
 └── README.md              # Project documentation
+
+
 Key Components
 ProductCard.jsx
 Displays product image, title, price, and an "Add to Cart" button.
